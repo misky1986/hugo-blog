@@ -1,0 +1,14 @@
+baseURL = "https://misky1986.github.com"
+languageCode = "en-us"
+title = "SourceCabin"
+theme = "amp"
+
+copyright = "© 2018 misky1986"
+
+# optional
+[social]
+  twitter = "Your Twitter Name"
+  github = "Your Github Name"
+  facebook = "Your facebook Name"
+  gplus = "Your Google+ profile name"
+  linkedin = "Your LinkedIn Name"

@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  hugo:
+    image: jguyomard/hugo-builder:0.41
+    entrypoint: hugo
+    volumes:
+      - $PWD:/src
+
+  server:
+    image: jguyomard/hugo-builder:0.41
+    command: hugo server --bind 0.0.0.0 
+    ports:
+      - "1313:1313"
+    volumes:     
+      - $PWD:/src
