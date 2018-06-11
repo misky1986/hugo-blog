@@ -18,15 +18,10 @@ jobs:
       - image: cibuilds/hugo:0.41
     working_directory: ~/project
     steps:
-      - checkout
-      - run: pwd
+      - checkout      
       - run:
-          name: "Run Hugo"
-          command: ls -al
-          #command: HUGO_ENV=production hugo -v -s hugo-blog/
+          name: "Run Hugo"          
+          command: HUGO_ENV=production hugo -v -s ~/project/
       - run:
           name: "Test Website"
-          command: htmlproofer hugo-blog/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
-    deploy:
-      steps:
-        - run: echo "Just testing"
+          command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
