@@ -21,10 +21,10 @@ jobs:
       - checkout
       - run:
           name: "Run Hugo"
-          command: HUGO_ENV=production hugo -v -s misky1986/hugo-blog/
+          command: HUGO_ENV=production hugo -v -s git@github.com:misky1986/hugo-blog.git/
       - run:
           name: "Test Website"
-          command: htmlproofer misky1986/hugo-blog/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+          command: htmlproofer git@github.com:misky1986/hugo-blog.git/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
     deploy:
       steps:
         - run: echo "Just testing" 
