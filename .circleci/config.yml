@@ -15,13 +15,12 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:0.41
-    working_directory: ~/project
+      - image: cibuilds/hugo:0.41    
     steps:
       - checkout      
       - run:
           name: "Run Hugo"          
-          command: HUGO_ENV=production hugo -v -s ~/project/
+          command: HUGO_ENV=production hugo -v -s /root/project/
       - run:
           name: "Test Website"
-          command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+          command: htmlproofer /root/project/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
