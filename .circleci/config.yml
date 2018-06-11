@@ -22,7 +22,8 @@ jobs:
       - run: pwd
       - run:
           name: "Run Hugo"
-          command: HUGO_ENV=production hugo -v -s hugo-blog/
+          command: pwd
+          #command: HUGO_ENV=production hugo -v -s hugo-blog/
       - run:
           name: "Test Website"
           command: htmlproofer hugo-blog/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
