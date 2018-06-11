@@ -22,7 +22,7 @@ jobs:
       - run: pwd
       - run:
           name: "Run Hugo"
-          command: pwd
+          command: ls -al
           #command: HUGO_ENV=production hugo -v -s hugo-blog/
       - run:
           name: "Test Website"
