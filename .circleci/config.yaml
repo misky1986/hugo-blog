@@ -24,7 +24,7 @@ jobs:
           command: HUGO_ENV=production hugo -v -s hugo-blog/
       - run:
           name: "Test Website"
-          command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+          command: htmlproofer hugo-blog/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
     deploy:
       steps:
         - run: echo "Just testing" 
