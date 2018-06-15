@@ -33,6 +33,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Deployment
-          commands:
-            - ./scripts/deploy-ghpages.sh build
+        name: Deployment
+        command:
+          - ./scripts/deploy-ghpages.sh build
