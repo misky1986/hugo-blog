@@ -35,4 +35,4 @@ jobs:
       - run:
         name: Deployment
         command: |
-          - ./scripts/deploy-ghpages.sh build
+          - ./scripts/deploy-gh-pages.sh build
