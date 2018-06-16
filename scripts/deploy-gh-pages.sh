@@ -39,14 +39,15 @@ echo "Deleting empty public folder"
 rm -rf public 
 ls -al
 
-echo "Checking out gh-pages branch"
-git checkout gh-pages
 
 echo "Git status"
 git status
 
 echo "Add all files"
 git add -A
+
+echo "Checking out gh-pages branch"
+git checkout gh-pages
 
 echo "Add all files"
 git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}"
