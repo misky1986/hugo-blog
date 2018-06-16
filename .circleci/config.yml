@@ -32,6 +32,9 @@ jobs:
       - TARGET_BRANCH: gh-pages
     steps:
       - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "96:2b:b8:f7:a9:88:b2:2d:86:4e:fb:dc:df:c0:79:72"
       - run:
           name: Deployment started
           command: bash ./scripts/deploy-gh-pages.sh build
