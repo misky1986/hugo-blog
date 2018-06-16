@@ -1,9 +1,9 @@
-baseURL = "https://misky1986.github.com"
+baseURL = "https://misky1986.github.com/index.html"
 languageCode = "en-us"
 title = "SourceCabin"
 theme = "amp"
 
-copyright = "© 2018 misky1986"
+copyright = "ï¿½ 2018 misky1986"
 
 # optional
 [social]
