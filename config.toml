@@ -1,4 +1,4 @@
-baseURL = "https://misky1986.github.com/index.html"
+baseURL = "https://misky1986.github.io/hugo-blog/index.html"
 languageCode = "en-us"
 title = "SourceCabin"
 theme = "amp"

@@ -1,7 +1,12 @@
 ---
-title: "Welcome to Hugo!"
-date: 2018-06-07T23:22:43git+01:00
-draft: true
+title: "Tester"
+date: 2018-04-22T13:25:02+02:00
+draft: false
+tags: ["x", "y"]
+categories: ["x", "y"]
+menu:
+  main:
+    parent: tutorials
 ---
 
 You’ll find this post in your `content/posts` directory.
