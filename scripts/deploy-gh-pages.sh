@@ -12,6 +12,23 @@ git config --global user.email "$GH_EMAIL" > /dev/null 2>&1
 git config --global user.name "$GH_NAME" > /dev/null 2>&1
 remote=$(git config remote.origin.url)
 
+# Check out new branch from master
+git checkout -b gh-pages
+
+# Tells that HEAD refs/heads/gh-pages is your current working branch by creating a symlink called HEAD with the refs/heads/gh-pages value.
+git symbolic-ref HEAD refs/heads/gh-pages
+
+# Then you are removing the index file of git
+rm .git/index
+
+# Finally you are cleaning your untracked files
+git clean -fdx
+
+# Then adding, commiting and pushing and viola gh-pages does not have any files or folders from master.
+git add .
+git commit -m "First commit on clean branch"
+git push origin gh-pages
+
 pwd
 # make a directory to put the gp-pages branch
 echo "Current folder"
