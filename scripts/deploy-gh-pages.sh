@@ -14,6 +14,7 @@ remote=$(git config remote.origin.url)
 
 # Check out new branch from master
 git checkout -b gh-pages
+git pull
 
 # Tells that HEAD refs/heads/gh-pages is your current working branch by creating a symlink called HEAD with the refs/heads/gh-pages value.
 git symbolic-ref HEAD refs/heads/gh-pages
