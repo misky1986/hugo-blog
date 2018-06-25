@@ -39,7 +39,6 @@ echo "Deleting empty public folder"
 rm -rf public 
 ls -al
 
-
 echo "Git status"
 git status
 
