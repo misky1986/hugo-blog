@@ -21,9 +21,9 @@ jobs:
       - run:
           name: "Run Hugo"          
           command: HUGO_ENV=production hugo -v -s /root/project/
-      - run:
-          name: "Test Website"
-          command: htmlproofer /root/project/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+      # - run:
+      #     name: "Test Website"
+      #     command: htmlproofer /root/project/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
   deploy:
     docker:
       - image: cibuilds/hugo:0.41
