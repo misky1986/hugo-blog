@@ -90,6 +90,8 @@ ls -al
 git config --global user.email "$GH_EMAIL" > /dev/null 2>&1
 git config --global user.name "$GH_NAME" > /dev/null 2>&1
 remote=$(git config remote.origin.url)
+echo "Remote git url"
+echo remote
 
 echo "show git status"
 git status
@@ -101,5 +103,8 @@ git status
 
 git commit -m "Deploy from CircleCI"
 
+echo "Remote addedd ."
+git remote add origin git@github.com:misky1986/hugo-blog.git
+
 # use --quiet to avoid printing token in build logs
-git push origin master:gh-pages
+git push --force origin master:gh-pages
