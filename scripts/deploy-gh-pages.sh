@@ -89,9 +89,9 @@ ls -al
 
 git config --global user.email "$GH_EMAIL" > /dev/null 2>&1
 git config --global user.name "$GH_NAME" > /dev/null 2>&1
-remote=$(git config remote.origin.url)
-echo "Remote git url"
-echo remote
+#remote=$(git config remote.origin.url)
+#echo "Remote git url"
+#echo remote
 
 echo "show git status"
 git status
