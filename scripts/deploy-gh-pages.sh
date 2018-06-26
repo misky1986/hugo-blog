@@ -77,12 +77,28 @@ set -e # stop at first failing command
 hugo -v
 cd public
 
+echo "Show files in public folder"
+ls -al
+
+echo "What folder are we in?"
+pwd
+
 git init
+echo "Show files in public folder after git init command"
+ls -al
+
 git config --global user.email "$GH_EMAIL" > /dev/null 2>&1
 git config --global user.name "$GH_NAME" > /dev/null 2>&1
 remote=$(git config remote.origin.url)
 
+echo "show git status"
+git status
+
 git add .
+
+echo "show git status after add ."
+git status
+
 git commit -m "Deploy from CircleCI"
 
 # use --quiet to avoid printing token in build logs
