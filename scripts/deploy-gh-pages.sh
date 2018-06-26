@@ -2,7 +2,7 @@
 set -e # stop at first failing command
 
 echo "Removing all old files and folders!"
-rm -rf ./{*,.*}
+rm -rf *
 
 echo "Build new hugo site"
 hugo -v
