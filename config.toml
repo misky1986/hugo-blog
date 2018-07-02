@@ -1,7 +1,7 @@
 baseURL = "https://misky1986.github.io/hugo-blog/index.html"
 languageCode = "en-us"
 title = "SourceCabin"
-theme = "amp"
+theme = "hugo-phlat-theme"
 
 copyright = "� 2018 misky1986"
 
