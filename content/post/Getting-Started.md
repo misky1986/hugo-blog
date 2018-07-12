@@ -1,7 +1,16 @@
 ---
 title: "Test Post"
 date: 2018-06-26T23:30:08+02:00
-draft: false
+categories:
+- tranquilpeak
+- features
+tags:
+- html elements
+- markdown
+thumbnailImagePosition: "top"
+thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/welcome-to-tranquilpeak/city-750.jpg
+coverImage: //d1u9biwaxjngwg.cloudfront.net/welcome-to-tranquilpeak/city.jpg
+metaAlignment: center
 ---
 
 ## Installation
