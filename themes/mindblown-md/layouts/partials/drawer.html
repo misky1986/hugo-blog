@@ -1,0 +1,12 @@
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Title</span>
+        <nav class="mdl-navigation">
+            {{- range first 10 .Data.Pages -}}
+                {{- if eq .Type "article" }}
+                    <a class="mdl-navigation__link" href="{{ .Permalink }}">{{ .Title }}</a>
+                {{- end -}}
+            {{- end }}
+        </nav>
+    </div>
+</div>

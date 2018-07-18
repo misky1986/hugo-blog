@@ -1,0 +1,12 @@
+<header class="mdl-layout__header mdl-layout__header--fixed">
+    <div class="mdl-layout--large-screen-only mdl-layout__header-row header-navigtion">
+        <h3><a href="/" id="brand-name">SourceCabin</a></h3>
+    </div>
+    <nav class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        {{- range first 10 .Site.RegularPages.ByTitle -}}
+            {{- if eq .Type "page" }}
+                <a class="mdl-layout__tab" href="{{ .Permalink }}">{{ .Title }}</a>
+            {{- end -}}
+        {{- end -}}
+    </nav>
+</header>

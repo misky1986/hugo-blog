@@ -1,0 +1,14 @@
+<aside class="right-sidebar">
+    <section class="sidebar">
+        <ul class="" id="all-tags">
+            <h4>Tags</h4>
+            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                <li class="tag">({{.Count}}) <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+            {{ end }}
+            <h4>Category</h4>
+            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                <li class="category">({{.Count}}) <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+            {{ end }}
+        </ul>
+    </section>
+</aside>

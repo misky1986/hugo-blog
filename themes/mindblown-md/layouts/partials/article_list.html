@@ -1,0 +1,49 @@
+<div class="mdl-layout__tab-panel is-active" id="overview">
+    {{ range (.Paginate (where .Data.Pages "Type" "==" "blog_post") 3).Pages }}
+        <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+                <i class="material-icons">image</i>
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <div class="mdl-card__supporting-text">
+                    <div class="blog-post-header">
+                        <h4>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h4>
+                        <span class="text"><i class="material-icons">watch_later</i>{{ .PublishDate.Format "January 2, 2006" }}</span>
+                    </div>
+
+                    <div class="summary">
+                        <span>{{ .Summary }}</span>
+                    </div>
+                </div>
+                <div class="mdl-card__actions">
+                    <a href="{{ .Permalink}}" class="mdl-button">Continue reading</a>
+                </div>
+            </div>
+        </section>
+    {{ end }}
+
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--2-col">
+        </div>
+        <div class="mdl-cell mdl-cell--2-col paginate-prev">
+            {{ if .Paginator.HasPrev }}
+                <a class="btn btn-default" href="{{ .Paginator.Prev.URL }}">
+                    <i class="material-icons">arrow_back</i>
+                </a>
+            {{ end }}
+        </div>
+        <div class="mdl-cell mdl-cell--2-col">
+        </div>
+        <div class="mdl-cell mdl-cell--2-col">
+        </div>
+        <div class="mdl-cell mdl-cell--2-col paginate-next">
+            {{ if .Paginator.HasNext }}
+            <a class="btn btn-default" href="{{ .Paginator.Next.URL }}">
+                <i class="material-icons">arrow_forward</i>
+            </a>
+            {{ end }}
+        </div>
+        <div class="mdl-cell mdl-cell--2-col">
+        </div>
+    </div>
+</div>
