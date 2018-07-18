@@ -1,5 +1,5 @@
 ---
 theme: "mindblown-md"
-baseURL: "localhost"
+baseURL: "https://misky1986.github.io/hugo-blog/"
 languageCode: "en-us"
 title: "SourceCabin.com"
