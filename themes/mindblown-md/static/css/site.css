@@ -216,7 +216,7 @@ a#brand-name {
 
 .header-navigtion {
     height: 132px;
-    background:linear-gradient(0deg,rgb(103,58,183),rgba(103,58,183, 0.3)),url("../images/alps.jpg");
+    background:linear-gradient(0deg,rgb(63, 81, 181),rgba(103,58,183, 0.3)),url("../images/alps.jpg");
 }
 
 .material-icons {
