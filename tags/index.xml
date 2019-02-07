@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on SourceCabin.com</title>
+    <link>https://misky1986.github.io/hugo-blog/tags/</link>
+    <description>Recent content in Tags on SourceCabin.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jun 2017 22:12:06 +0200</lastBuildDate>
+    
+	<atom:link href="https://misky1986.github.io/hugo-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Angular</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/angular/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:06 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/bash/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cli</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/cli/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command Line</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/command-line/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating Post</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/creating-post/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/creating-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/go/</link>
+      <pubDate>Sun, 18 Jun 2017 17:33:09 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/hugo/</link>
+      <pubDate>Sun, 18 Jun 2017 17:33:09 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/java/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/linux/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/markdown/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regular Expressions</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/regular-expressions/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/regular-expressions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/theme/</link>
+      <pubDate>Sun, 18 Jun 2017 17:33:09 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Websocket</title>
+      <link>https://misky1986.github.io/hugo-blog/tags/websocket/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:06 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/tags/websocket/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

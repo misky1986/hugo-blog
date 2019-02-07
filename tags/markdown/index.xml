@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on SourceCabin.com</title>
+    <link>https://misky1986.github.io/hugo-blog/tags/markdown/</link>
+    <description>Recent content in Markdown on SourceCabin.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jun 2017 22:12:11 +0200</lastBuildDate>
+    
+	<atom:link href="https://misky1986.github.io/hugo-blog/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ascii Doctor</title>
+      <link>https://misky1986.github.io/hugo-blog/article/asciidoctor/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/article/asciidoctor/</guid>
+      <description>Wee first header Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Wee second header Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eos et laboriosam quos reprehenderit, unde! Aliquam distinctio eveniet provident quas sequi! Consectetur facilis iste laboriosam perferendis quam quas sit tempora!
+Installation Installing Hugo Hugo itself is just a single binary without dependencies on expensive runtimes like Ruby, Python or PHP and without dependencies on any databases.</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://misky1986.github.io/hugo-blog/article/markdown/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/article/markdown/</guid>
+      <description>Wee first header Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Wee second header Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eos et laboriosam quos reprehenderit, unde! Aliquam distinctio eveniet provident quas sequi! Consectetur facilis iste laboriosam perferendis quam quas sit tempora!
+Installation Installing Hugo Hugo itself is just a single binary without dependencies on expensive runtimes like Ruby, Python or PHP and without dependencies on any databases.</description>
+    </item>
+    
+  </channel>
+</rss>

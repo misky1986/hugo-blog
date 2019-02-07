@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on SourceCabin.com</title>
+    <link>https://misky1986.github.io/hugo-blog/categories/</link>
+    <description>Recent content in Categories on SourceCabin.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jun 2017 22:12:11 +0200</lastBuildDate>
+    
+	<atom:link href="https://misky1986.github.io/hugo-blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Backend</title>
+      <link>https://misky1986.github.io/hugo-blog/categories/backend/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/categories/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backendend</title>
+      <link>https://misky1986.github.io/hugo-blog/categories/backendend/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/categories/backendend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dev Ops</title>
+      <link>https://misky1986.github.io/hugo-blog/categories/dev-ops/</link>
+      <pubDate>Wed, 14 Jun 2017 22:12:11 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/categories/dev-ops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing</title>
+      <link>https://misky1986.github.io/hugo-blog/categories/developing/</link>
+      <pubDate>Sun, 18 Jun 2017 17:33:09 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/categories/developing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frontend</title>
+      <link>https://misky1986.github.io/hugo-blog/categories/frontend/</link>
+      <pubDate>Sun, 18 Jun 2017 17:33:09 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/categories/frontend/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

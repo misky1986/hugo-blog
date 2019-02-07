@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theme on SourceCabin.com</title>
+    <link>https://misky1986.github.io/hugo-blog/tags/theme/</link>
+    <description>Recent content in Theme on SourceCabin.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Jun 2017 17:33:09 +0200</lastBuildDate>
+    
+	<atom:link href="https://misky1986.github.io/hugo-blog/tags/theme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://misky1986.github.io/hugo-blog/article/getting_started/</link>
+      <pubDate>Sun, 18 Jun 2017 17:33:09 +0200</pubDate>
+      
+      <guid>https://misky1986.github.io/hugo-blog/article/getting_started/</guid>
+      <description>Installation Installing Hugo !!!!!!
+Hugo itself is just a single binary without dependencies on expensive runtimes like Ruby, Python or PHP and without dependencies on any databases. You just need to download the latest version. For more information read the official installation guides.
+Let&amp;rsquo;s make sure Hugo is set up as expected. You should see a similar version number in your terminal:
+hugo version # Hugo Static Site Generator v0.</description>
+    </item>
+    
+  </channel>
+</rss>
